@@ -1,0 +1,12 @@
+server:
+  port: 8989
+  servlet:
+    context-path: /mq
+
+spring:
+  activemq:
+    broker-url: tcp://192.168.38.128:61616
+    user: admin
+    password: admin
+  jms:
+    pub-sub-domain: true  defult false quenue, true
