@@ -9,4 +9,4 @@ spring:
     user: admin
     password: admin
   jms:
-    pub-sub-domain: true  defult false quenue, true
+    pub-sub-domain: true  #defult false quenue, true topic
